@@ -267,3 +267,134 @@
   width: 48%;
   text-align: center;
 }
+
+/* Responsive section */
+@media screen and (max-width: 1200px) {
+  .about-me-details-container h2 {
+    font-size: 16px;
+  }
+  .about-me-details-container p {
+    font-size: 14px;
+  }
+  .details-left-top .header-detail {
+    font-size: 14px;
+  }
+  .details-left-top h3 {
+    font-size: 12px;
+  }
+  .skills_progress {
+    font-size: 13px;
+  }
+  .skills_progress span {
+    font-size: 11px;
+  }
+  .skills_progress::after {
+    height: 0.8vh;
+  }
+  .skills_progress::before {
+    height: 0.8vh;
+  }
+  .education-container h1 {
+    font-size: 16px;
+  }
+  .edu_content h3 {
+    font-size: 14px;
+  }
+  .edu_content p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-section-container {
+    transition: 0.5s ease;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .more-details-container {
+    flex-direction: column;
+    transition: 0.5s ease;
+    gap: 40px;
+  }
+  .details-left {
+    width: 100%;
+  }
+  .details-right {
+    width: 100%;
+  }
+  #C_language {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .about-section-container {
+    width: 100%;
+    transition: 0.5s ease;
+    margin-left: 0px;
+    padding-top: 110px;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .about-me-container span {
+    font-size: 20px;
+  }
+  .about-me-details-container h2 {
+    font-size: 14px;
+  }
+  .about-me-details-container p {
+    font-size: 12px;
+  }
+  .details-left-top {
+    flex-direction: column;
+  }
+  .details-left-top-left {
+    width: 100%;
+    line-height: 40px;
+  }
+  .details-left-top-right {
+    width: 100%;
+    line-height: 40px;
+  }
+  .details-left hr {
+    width: 100%;
+  }
+  .details-left-top .header-detail {
+    font-size: 16px;
+  }
+  .details-left-top h3 {
+    font-size: 13px;
+  }
+  .skills_progress {
+    font-size: 16px;
+  }
+  .skills_progress span {
+    font-size: 13px;
+  }
+  .skills_progress::after {
+    height: 1vh;
+  }
+  .skills_progress::before {
+    height: 1vh;
+  }
+  .education-container h1 {
+    font-size: 16px;
+  }
+  .edu_content h3 {
+    font-size: 14px;
+  }
+  .edu_content p {
+    font-size: 11px;
+  }
+  .education-container {
+    flex-direction: column;
+  }
+  .education-left {
+    width: 100%;
+  }
+  .education-right {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

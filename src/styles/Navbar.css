@@ -7,6 +7,14 @@
   user-select: none;
   flex-shrink: 0;
 }
+.slideActive {
+  background-color: red;
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  z-index: 100;
+}
 nav {
   flex-direction: column;
   display: flex;
@@ -14,8 +22,9 @@ nav {
   justify-content: center;
   height: 100%;
 }
-ul a {
+ul .active li {
   text-decoration: none;
+  color: var(--orange);
 }
 ul li {
   margin: 30px 5px;
