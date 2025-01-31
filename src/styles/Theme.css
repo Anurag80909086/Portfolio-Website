@@ -6,7 +6,7 @@
   justify-content: center;
   z-index: 999;
   top: 4%;
-  right: 3%;
+  right: 15px;
   background-color: var(--background-dark);
   border-radius: 100%;
   padding: 15px;
@@ -25,4 +25,10 @@
 .theme-container .fa-moon:active {
   transform: scale(200%);
   transition: 0.2s ease;
+}
+@media screen and (max-width: 700px) {
+  .theme-container {
+    top: 4%;
+    right: 65px;
+  }
 }

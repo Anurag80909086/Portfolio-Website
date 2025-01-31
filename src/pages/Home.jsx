@@ -24,11 +24,7 @@ const Home = () => {
       </div>
       <div className="photo-container">
         <div id="temp-container-parent">
-          <img
-            src="/images/Image.jpeg"
-            alt="Profile photo"
-            id="profile_photo"
-          />
+          <img src="/images/Image.jpg" alt="Profile photo" id="profile_photo" />
         </div>
       </div>
     </section>

@@ -7,9 +7,17 @@
   user-select: none;
   flex-shrink: 0;
 }
+
 .slideActive {
-  background-color: red;
-  transform: translateX(0%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--background-slider);
+  box-shadow: var(--shadow);
+  user-select: none;
+  height: 100%;
+  width: 30%;
+  z-index: 9999;
 }
 nav {
   flex-direction: column;
