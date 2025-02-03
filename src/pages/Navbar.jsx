@@ -2,7 +2,7 @@ import "../styles/Navbar.css";
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
-    <section className="slider" id="slider">
+    <section className="slider slideBar" id="slider">
       <nav>
         <div className="portfolio-container">
           <span>P</span>ortfolio

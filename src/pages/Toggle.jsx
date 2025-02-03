@@ -1,7 +1,31 @@
 import "../styles/Toggle.css";
 import { useEffect } from "react";
 const Toggle = () => {
-  const toggleSlider = () => {
+  const windowBackground = document.getElementById("root");
+  windowBackground.addEventListener("click", (e) => {
+    e.stopPropagation();
+    if (
+      e.target.classList.contains("bars-container") ||
+      e.target.id == "slider_btn" ||
+      e.target.tagName.toLowerCase() === "nav"
+    ) {
+      // console.log("THis is section page");
+    } else {
+      closeSlider();
+    }
+  });
+
+  const closeSlider = () => {
+    const slider = document.getElementById("slider");
+    const element = document.getElementById("slider_btn");
+    element.classList.remove("fa-xmark");
+    element.classList.add("fa-bars");
+    slider.classList.add("slider");
+    slider.classList.remove("slideActive");
+  };
+
+  const toggleSlider = (e) => {
+    e.stopPropagation();
     const slider = document.getElementById("slider");
     const element = document.getElementById("slider_btn");
     element.classList.toggle("fa-xmark");
@@ -21,9 +45,9 @@ const Toggle = () => {
       }
     }
   };
+
   useEffect(() => {
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
