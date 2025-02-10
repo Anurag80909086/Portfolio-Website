@@ -24,8 +24,8 @@ const Contact = () => {
         <span>Contact Me</span>
       </div>
       <div className="question_container">
-        <span className="question-heading">Have You Any Question ?</span>
-        <span className="question-heading-small">I'M at your serice</span>
+        <span className="question-heading">Do you have any question ?</span>
+        <span className="question-heading-small">I'm at your service</span>
       </div>
       <div className="contact-icon-container">
         <div className="icon-section">

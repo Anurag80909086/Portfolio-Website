@@ -133,7 +133,7 @@
   animation: skill_progress 2s ease-in 1 forwards;
 }
 #java_script::before {
-  width: 75%;
+  width: 80%;
   animation: skill_progress 2s ease-in 1 forwards;
 }
 #java::before {
@@ -141,11 +141,11 @@
   animation: skill_progress 2s ease-in 1 forwards;
 }
 #react_js::before {
-  width: 60%;
+  width: 80%;
   animation: skill_progress 2s ease-in 1 forwards;
 }
 #C_language::before {
-  width: 50%;
+  width: 30%;
   animation: skill_progress 2s ease-in 1 forwards;
 }
 @keyframes skill_progress {

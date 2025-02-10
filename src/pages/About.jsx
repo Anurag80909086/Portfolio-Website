@@ -96,7 +96,7 @@ const About = () => {
             CSS <span>85%</span>
           </div>
           <div class="skills_progress" id="java_script">
-            JAVA SCRIPT <span>60%</span>
+            JAVA SCRIPT <span>80%</span>
           </div>
           <div class="skills_progress" id="react_js">
             React Js <span>80%</span>
